@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "referal-api-test"
+version = "0.1.0"
+description = ""
+authors = ["topgun <reddevil.23031991@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.115.2"}
+sqlalchemy = "^2.0.36"
+alembic = "^1.13.3"
+asyncpg = "^0.29.0"
+fastapi-cache2 = {extras = ["redis"], version = "^0.2.2"}
+loguru = "^0.7.2"
+sqlalchemy-utils = "^0.41.2"
+pyjwt = "^2.9.0"
+bcrypt = "^4.2.0"
+gunicorn = "^23.0.0"
+cryptography = "^43.0.1"
+email-hunter-python = "^1.1.0"
+uvicorn = "^0.32.0"
+black = "^24.10.0"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
